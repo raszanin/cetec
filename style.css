@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Fira Code", monospace;
+  margin: 8px;
+  background: #000;
+  color: #5dfd00;
+  height: 98vh;
+}
+
+header p {
+  font-size: 18px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section h1 {
+  font-size: 96px;
+}
+
+section p {
+  font-size: 24px;
+}
+
+@keyframes anima {
+  to {
+    opacity: 0;
+  }
+}
+
+footer {
+  font-size: 18px;
+}
+
+footer span {
+  animation: anima 500ms ease infinite;
+}
